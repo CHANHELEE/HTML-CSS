@@ -1,0 +1,15 @@
+p{
+  font-style: italic;
+  font-weight: bold;
+  
+}
+
+div{
+  font-size: 1.2em;
+}
+/* px,em,rem */
+
+.div1{
+  text-decoration:underline;
+  text-transform: uppercase;
+}
