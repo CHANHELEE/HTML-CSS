@@ -1,0 +1,49 @@
+#container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#header{
+  display:  flex;
+  flex-basis: 100px;
+  padding: 12px;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: dodgerblue;
+  gap: 1em;
+}
+
+#header > *{
+  text-align: center;
+  background-color: yellow;
+  padding: 12px 0;
+}
+
+#header>:first-child{
+  flex-basis: 100px;
+}
+
+#header>:last-child{
+  flex-grow: 1;
+}
+
+#main{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  /*justify-content= 가로 , align-items=세로  */
+}
+
+#main>#content{
+  padding: 24px;
+  background-color: skyblue;
+
+}
+
+#footer{
+  background-color: tomato;
+  flex-basis: 60px;
+  
+}

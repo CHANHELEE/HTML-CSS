@@ -1,0 +1,68 @@
+
+.container {
+  width: 518px;
+  border: 2px solid #ddd;
+  padding: 12px 0 0 12px;
+
+}
+.container > div {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  margin: 0 8px 5px 0;
+  background-color: lightgray;
+}
+ .container > div.orange {
+  background-color: gold;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.33);
+  position: static;
+}
+
+.red {
+  width: 48px;
+  height: 48px;
+  background-color: orangered;
+  position: fixed;
+  top: 60px;
+  left: 60px;
+} 
+
+.div2{
+  width: 100%;
+  height: 200px;
+  /* margin: 0 auto; */
+  text-align: center;
+}
+.div2 > div{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: cadetblue;
+
+}
+.div2>div:first-child{
+  visibility: hidden;
+  /* display=none */
+} 
+
+.flex{ 
+  margin: 0 auto;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  flex-direction:row;
+  justify-content: center;
+  /* align-items: baseline; */
+  align-content:flex-start;
+  gap: 1em;
+}
+
+/* .flex= 바깥쪽 div */
+
+.flex > div{
+  min-width: 48px;
+  min-height: 48px;
+  background-color: blue;
+  padding: 12;
+}
