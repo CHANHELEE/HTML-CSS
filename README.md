@@ -26,7 +26,7 @@
   
 # CSS 심화 폴더 = CSS 심화 실습 예제 
   
-  -css1: css공유{import}, css 변수 사용
-  -css2: 선택자, 가상클래스 , 가상요소 , 상속{inherit}
+  -css1: css공유{import}, css 변수 사용  
+  -css2: 선택자, 가상클래스 , 가상요소 , 상속{inherit}  
   -css3: 서체와 폰트  
   -css4: transform,transition,animation
