@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style4.css">
+  <style>
+    .result > div {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      background-color: rgb(93, 179, 207);
+    }
+    .result > div:nth-of-type(2),
+    .result > div:nth-of-type(7) {
+      width: 180px;
+      
+    }
+    .result > div:nth-of-type(4),
+    .result > div:nth-of-type(5) {
+      height: 180px;
+      
+    }
+    .result > img {
+      vertical-align: top;
+    }
+/* ---------------------------- */
+    .flex {
+  display: flex; 
+  width: 800px;
+  height: 640px;
+  background-color: lightblue;
+  margin: 0 auto;
+
+  justify-content: center;
+  align-items: center;
+}
+.flex>div {
+  width: 200px;
+  height: 200px;
+  background-color: slateblue;
+}
+/* ---------------------------- */
+#square {
+      position:relative;
+      top: 108px;
+      left: 24px;
+      width: 124px;
+      height: 124px;
+      border-radius: 10%;
+      background-color: tomato;
+      transition:  1s;
+    }
+
+    label { margin-right: 1em; }
+
+    #left:not(:checked) ~ div { left: 24px; }
+    #left:checked ~ div { left: 400px; }
+
+    #color:not(:checked) ~ div {
+      background-color: tomato;
+    }
+    #color:checked ~ div {
+      background-color: dodgerblue;
+    }
+
+    #trans:not(:checked) ~ div {
+      transform: scale(1) rotate(0deg);
+    }
+    #trans:checked ~ div {
+      transform: scale(0.5) rotate(360deg);
+    }
+
+    p:first-of-type {
+      margin-top: 168px;
+    }
+    /* #square2 {
+      position: absolute;
+      top: 124px;
+      left: 36px;
+      width: 124px;
+      height: 124px;
+      background-color: tomato;
+    } */
+  </style>
+
+  
+
+</head>
+<body>
+  <main>
+    <section class="result">
+
+      <!-- 시작 -->
+
+      <h1>transform 속성</h1>
+
+      <div></div>
+      <div></div>
+      <div></div>
+      <br>
+      <div></div>
+      <img src="./yalco.png" alt="logo" style="transform: rotate(45deg);">
+      <div></div>
+      <br>
+      <div></div>
+      <div></div>
+      <div></div>
+
+      <br><br>
+
+      <strong>transform</strong> 속성은 <b>주위 요소들에 영향을 끼치지 않으면서</b> 요소의 모습을 바꿉니다. <br>
+
+      <a href="https://developer.mozilla.org/ko/docs/Web/CSS/transform" target="_blank">
+        👉 MDN 문서 보기
+      </a>
+
+      <!-- 끝 -->
+
+    </section>
+
+    <hr>
+
+    <section class="flex">
+      <div></div>
+    </section>
+
+    <hr>
+
+    <section class="result2">
+
+      <!-- 시작 -->
+
+      <h1>transition 속성</h1>
+
+      <input type="checkbox" id="left">
+      <label for="left">오른쪽으로 이동</label>
+
+      <input type="checkbox" id="color">
+      <label for="color">파랑색으로</label>
+
+      <input type="checkbox" id="trans">
+      <label for="trans">작게 회전</label>
+
+      <div id="square"></div>
+      <p>
+        <strong>transiton</strong> 속성은 CSS 값이 달라질 때 요소에 어떤 효과로 반영될지 지정합니다. <br>
+        <em>속성</em>, <em>지속시간</em>, <em>시간함수</em>, <em>지연시간</em> 순으로 값을 넣을 수 있습니다.
+      </p>
+      <p>
+        <strong>주의!</strong> 적용할 CSS 속성이 이미 기존값이 적용되어 있어야 동작합니다.
+      </p>
+      <a href="https://developer.mozilla.org/ko/docs/Web/CSS/transition" target="_blank">
+        👉 MDN 문서 보기 
+      </a>
+      <br>
+      <a href="https://cubic-bezier.com/" target="_blank">
+        👉 cubic-bezier 값 생성기
+      </a>
+
+      <!-- 끝 -->
+
+    </section>
+
+    <hr>
+
+    <h1>animation 속성</h1>
+  <div id="square2"></div>
+  <p>
+    <strong>animation</strong> 속성을 사용하면 자바스크립트 없이 <br>
+    요소에 애니메이션을 적용할 수 있습니다. <br><br>
+
+    <hr>
+
+  <button class="_1">
+    마우스 커서를 올려보세요!
+  </button>
+  <br>
+  <button class="_2">
+    마우스 커서를 올려보세요!
+  </button>
+  <br>
+  <div id="loading">
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  
+</body>
+</html>
