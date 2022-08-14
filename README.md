@@ -32,4 +32,21 @@
   -css4: transform,transition,animation  
   -css5&6 : 반응형웹  
   -css7 : clip-path,scroll-snap,backdrop-filter,aspect-ratio  
-  -css8 : framewort , library
+  -css8 : framewort , library  
+  
+    
+# small project 폴더 = HTML/CSS 만을 이용한 프로젝트  
+<img width="1433" alt="1" src="https://user-images.githubusercontent.com/95417144/184536059-6b4afbb0-2797-4432-9388-afbbd354455f.png">  
+  
+
+<img width="1424" alt="2" src="https://user-images.githubusercontent.com/95417144/184536075-41dc9078-315d-462c-9394-c8a632723dd0.png">  
+  
+
+<img width="1409" alt="3" src="https://user-images.githubusercontent.com/95417144/184536082-05b2e68d-bc61-4afe-9947-323e399d9b68.png">  
+  
+      
+<img width="1415" alt="4" src="https://user-images.githubusercontent.com/95417144/184536089-5233492d-6a59-4818-b464-33b7d9e42d1d.png">
+  
+
+
+
