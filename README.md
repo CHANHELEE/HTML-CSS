@@ -36,6 +36,9 @@
   
     
 # small project 폴더 = HTML/CSS 만을 이용한 프로젝트  
+  
+  -해당 project는 HTML-CSS-front-Project 레포지토리에 deploy URL이 있음.  
+  ---------------------------------------------------------------------------
 <img width="1433" alt="1" src="https://user-images.githubusercontent.com/95417144/184536059-6b4afbb0-2797-4432-9388-afbbd354455f.png">  
   
 
